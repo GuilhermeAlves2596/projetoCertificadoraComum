@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <script type="text/javascript" src="javascripts/quiz.js"></script>
-    <title>Aula 1 - Introdução a banco de dados</title>
-    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" >
+<head>
+  <script type="text/javascript" src="../public/javascripts/quiz.js"></script>
+  <title>Aula 1 - Introdução a banco de dados</title>
+  <link rel="stylesheet" type="text/css" href="../public/stylesheets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <br><br><br><br><br><br><br>
+
 <body>
   <header>
     <nav class="navbar navbar-expand-lg position-fixed">
-    <img class="logo" src="img/logo.png"  alt="logo">
+      <img class="logo" src="../public/img/logo.png" alt="logo">
       <p class="info">Aprendendo Banco de Dados </p>
-      <a class="navbar-brand" href="/home">Página Inicial</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+      <a class="navbar-brand" href="../index.html">Página Inicial</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-          
-            <a class="navbar-brand" href="/aulas">Aulas</a>
+
+            <a class="navbar-brand" href="aulas.html">Aulas</a>
           </li>
           <li class="nav-item">
-            <a class="navbar-brand" href="/about">Sobre</a>
+            <a class="navbar-brand" href="about.html">Sobre</a>
           </li>
 
         </ul>
@@ -47,7 +48,7 @@
     <input type="radio" name="q1" value="c"> c) Um sistema que permite armazenar, gerenciar e organizar dados de forma organizada.<br>
     <input type="radio" name="q1" value="d"> d) Uma lista de contatos armazenada em um smartphone.<br>
   </div>
-  
+
   <div class="question">
     <p>2. Quais são as principais aplicações de um banco de dados?</p>
     <input type="radio" name="q2" value="a"> a) Cálculos matemáticos complexos.<br>
@@ -121,13 +122,13 @@
   </div>
 
 
-    <button class="btn-submit" onclick="checkAnswers()">Enviar Respostas</button>
+  <button class="btn-submit" onclick="checkAnswers()">Enviar Respostas</button>
 
   <div id="result" class="result-message"></div>
-  
+
   <footer class="mt-4">
     <div class="container">
-    <br>
+      <br>
       <p>&copy; 2023. Todos os direitos reservados.</p>
     </div>
   </footer>
@@ -136,4 +137,5 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>

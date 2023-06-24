@@ -18,15 +18,15 @@ function checkAnswers() {
     correctAnswers++;
   }
 
-  if (q2 && q2.value === "c") {
+  if (q2 && q2.value === "a") {
     correctAnswers++;
   }
 
-  if (q3 && q3.value === "d") {
+  if (q3 && q3.value === "c") {
     correctAnswers++;
   }
 
-  if (q4 && q4.value === "c") {
+  if (q4 && q4.value === "a") {
     correctAnswers++;
   }
 
@@ -34,23 +34,23 @@ function checkAnswers() {
     correctAnswers++;
   }
 
-  if (q6 && q6.value === "a") {
+  if (q6 && q6.value === "b") {
     correctAnswers++;
   }
 
-  if (q7 && q7.value === "c") {
+  if (q7 && q7.value === "a") {
     correctAnswers++;
   }
 
-  if (q8 && q8.value === "d") {
+  if (q8 && q8.value === "c") {
     correctAnswers++;
   }
 
-  if (q9 && q9.value === "c") {
+  if (q9 && q9.value === "b") {
     correctAnswers++;
   }
 
-  if (q10 && q10.value === "a") {
+  if (q10 && q10.value === "b") {
     correctAnswers++;
   }
 
